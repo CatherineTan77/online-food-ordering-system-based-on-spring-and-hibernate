@@ -1,1 +1,1 @@
-# online-food-ordering-system-based-on-spring-and-hibernate
+# online-food-ordering-system
