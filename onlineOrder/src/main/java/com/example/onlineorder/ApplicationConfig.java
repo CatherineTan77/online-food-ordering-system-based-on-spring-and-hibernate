@@ -29,7 +29,7 @@ public class ApplicationConfig {
     public DataSource dataSource() {
         String RDS_ENDPOINT = "laiproject-instance.c6l4qtvvtshv.us-east-1.rds.amazonaws.com";
         String USERNAME = "admin";
-        String PASSWORD = "Wdccxc415!,.";
+        String PASSWORD = "";
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://" + RDS_ENDPOINT + ":3306/onlineOrder?createDatabaseIfNotExist=true&serverTimezone=UTC");
